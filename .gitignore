@@ -49,8 +49,8 @@ Servers
 upload
 gen_code
 
-### node ###
-node_modules
-*/src/test/
-test/
+#### node ###
+#node_modules
+#*/src/test/
+#test/
 
