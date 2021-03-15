@@ -1,4 +1,4 @@
-package com.zdww.camel.processor;
+package com.auch.camel.ftp.processor;
 
 import org.apache.camel.Exchange;
 import org.apache.camel.Processor;

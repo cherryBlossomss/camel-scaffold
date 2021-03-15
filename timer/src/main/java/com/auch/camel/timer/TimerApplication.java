@@ -1,19 +1,19 @@
-package com.zdww.camel;
+package com.auch.camel.timer;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 /**
- * camel 测试 启动类
+ * <p>Timer Component</p>
  *
  * @author luohuiqi
- * @date: 2021/2/7 10:43
- */
+ * @date : 2021/3/15 15:07
+ **/
 @SpringBootApplication
-public class CamelApplication {
+public class TimerApplication {
 
     public static void main(String[] args) {
-        SpringApplication.run(CamelApplication.class, args);
+        SpringApplication.run(TimerApplication.class, args);
     }
 
 }

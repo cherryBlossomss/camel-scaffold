@@ -1,4 +1,4 @@
-package com.zdww.camel.route;
+package com.auch.camel.ftp.route;
 
 import org.apache.camel.Message;
 import org.apache.camel.builder.RouteBuilder;
