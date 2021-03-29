@@ -1,7 +1,8 @@
 camel:
   springboot:
     main-run-controller: true
-api:
-  source: file:///Users/luohuiqi/work/workspace/me/camel-scaffold/src/test/java/com/zdww/camel/source?noop=true
-  destination: file:///Users/luohuiqi/work/workspace/me/camel-scaffold/src/test/java/com/zdww/camel/destination
-
+#api:
+#  source: file:///Users/luohuiqi/work/workspace/me/camel-scaffold/ftp/src/test/java/com/auch/camel/ftp/source?noop=true
+#  destination: file:///Users/luohuiqi/work/workspace/me/camel-scaffold/ftp/src/test/java/com/auch/camel/ftp/destination
+server:
+  port: 8866

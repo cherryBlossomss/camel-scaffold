@@ -1,0 +1,56 @@
+### 查询ordin的项目-查询医生
+POST http://90ji.com:8888//organizationxx
+Content-Type: application/json
+
+{
+  "organizationId": 1285190947961536514,
+  "username": "法外狂徒张三"
+}
+
+###
+POST http://127.0.0.1:8866/project
+Content-Type: application/json
+
+{
+  "id": "1213213",
+  "name": "查询医生",
+  "description": "根据组织ID查询医生",
+  "status": "stop",
+  "initialId": "001",
+  "jetty": "jetty:http://0.0.0.0:8999/user",
+  "routes": [
+    {
+      "id": "route_11612347586621",
+      "description": "真帅",
+      "type": "http",
+      "mode": "inonly"
+    }
+  ],
+  "links": [
+    {
+      "sourceId": "001",
+      "targetId": "route_11612347586621"
+    }
+  ]
+}
+
+
+###
+GET http://127.0.0.1:8999/user
+Accept: application/json
+#
+#{
+#  "organizationId": 1285190947961536514,
+#  "username": "法外狂徒张三"
+#}
+
+
+
+###
+GET http://127.0.0.1:8866/http/jetty
+Accept: application/json
+
+###
+GET http://127.0.0.1:8097/invoke
+Accept: application/json
+

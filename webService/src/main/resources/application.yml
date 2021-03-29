@@ -1,0 +1,8 @@
+camel:
+  springboot:
+    main-run-controller: true
+server:
+  port: 8088
+#camel:
+#  springboot:
+#    main-run-controller: true
